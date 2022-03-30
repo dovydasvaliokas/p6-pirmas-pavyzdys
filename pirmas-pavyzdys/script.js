@@ -7,6 +7,7 @@ window.onload = function() {
     let y;
 
     let suma;
+    let atimtis;
 
     // Norint priskirti reikšmę kintamajui/išsaugoti rezultatą kintamajame, tai rašome "kintamojoPavadinimas = reikšmė"
     x = 5;
@@ -28,6 +29,11 @@ window.onload = function() {
     console.log("Y reikšmė yra " + y);
     console.log("Suma tarp x ir y yra: " + suma);
 
+
+
+    // atimties dalis
+    atimtis = x - y;
+    console.log("Atimtis yra: " + atimtis);
 }
 
 
